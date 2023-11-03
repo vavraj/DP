@@ -19,6 +19,7 @@ int solve(vector<int> &num, int tar)
         ans = ans + solve(num, tar - num[i]);
     }
     return ans;
+
 }
 int findWays(vector<int> &num, int tar)
 {
